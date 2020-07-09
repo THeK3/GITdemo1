@@ -9,6 +9,7 @@ public class FirstRun {
 		
 		WebDriver driver =new ChromeDriver();
 		driver.get("http://www.facebook.com"); //URL in the browser
+		System.out.println("THeK2");
 		driver.close();
 	}
 
